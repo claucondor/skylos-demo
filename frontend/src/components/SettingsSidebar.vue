@@ -36,40 +36,9 @@
     
     <v-divider></v-divider>
     
-    <!-- Demo Info -->
+    <!-- Demo Info section removed -->
+    
     <v-container>
-      <v-card variant="outlined" class="mb-4">
-        <v-card-title class="text-h6">
-          <v-icon class="mr-2">mdi-information</v-icon>
-          Información del Demo
-        </v-card-title>
-        <v-card-text>
-          <v-list density="compact">
-            <v-list-item>
-              <template v-slot:prepend>
-                <v-icon color="primary">mdi-account-question</v-icon>
-              </template>
-              <v-list-item-title>Lead: Por descubrir</v-list-item-title>
-              <v-list-item-subtitle>El agente identificará al prospecto</v-list-item-subtitle>
-            </v-list-item>
-            <v-list-item>
-              <template v-slot:prepend>
-                <v-icon color="info">mdi-phone</v-icon>
-              </template>
-              <v-list-item-title>Llamada en frío</v-list-item-title>
-              <v-list-item-subtitle>Conversación desde cero</v-list-item-subtitle>
-            </v-list-item>
-            <v-list-item>
-              <template v-slot:prepend>
-                <v-icon color="success">mdi-target</v-icon>
-              </template>
-              <v-list-item-title>Objetivo: Calificar lead</v-list-item-title>
-              <v-list-item-subtitle>Descubrir necesidades y oportunidades</v-list-item-subtitle>
-            </v-list-item>
-          </v-list>
-        </v-card-text>
-      </v-card>
-      
       <v-card variant="outlined">
         <v-card-title class="text-h6">
           <v-icon class="mr-2">mdi-help-circle</v-icon>
